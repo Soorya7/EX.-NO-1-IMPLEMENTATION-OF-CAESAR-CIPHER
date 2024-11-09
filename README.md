@@ -16,13 +16,13 @@ STEP-4: Else subtract the key from the plain text.
 STEP-5: Display the cipher text obtained above.
 
 ## PROGRAM:
+```
 #include <stdio.h>
 #include <string.h>
 
 void encrypt(char text[], int shift) {
     int i;
     char ch;
-    
     for(i = 0; text[i] != '\0'; ++i) {
         ch = text[i];
         
@@ -96,7 +96,7 @@ int main()
     
     return 0;
 }
-
+```
 ## OUTPUT:
 Enter a message to encrypt: goodmorning
 
